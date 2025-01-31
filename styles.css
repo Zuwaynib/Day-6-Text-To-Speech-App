@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Oxygen", serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+}
+.container {
+    max-width: 375px;
+    width: 80%;
+    background: transparent;
+    border: 1px solid #00c9FF;
+    border-radius: 10px;
+    padding: 30px;
+}
+h2 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px; 
+    background: linear-gradient(to right, #00c9ff, #64f38c);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+}
+
+.container textarea {
+    width: 100%;
+    height: 200px;
+    outline: none;
+    border: 1px solid rgb(77, 73, 73);
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background: rgb(27, 26, 26);
+    color: #fff;
+    padding: 15px;
+    font-size: 17px;
+}
+.button-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-div button {
+    background: #00c9FF;
+    color: #fff;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    font-size: 25px;
+    border: 5px solid #64f38c;
+}
+
