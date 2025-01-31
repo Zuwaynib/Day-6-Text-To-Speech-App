@@ -12,13 +12,13 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #000;
+    background: black;
     color: #fff;
 }
 .container {
     max-width: 375px;
     width: 80%;
-    background: transparent;
+    /* background: linear-gradient(to bottom, #00c9ff, #64f38c); */
     border: 1px solid #00c9FF;
     border-radius: 10px;
     padding: 30px;
@@ -26,6 +26,7 @@ body {
 h2 {
     font-size: 25px;
     text-align: center;
+    margin-top: 0;
     margin-bottom: 30px; 
     background: linear-gradient(to right, #00c9ff, #64f38c);
     background-clip: text;
@@ -37,7 +38,8 @@ h2 {
     width: 100%;
     height: 200px;
     outline: none;
-    border: 1px solid rgb(77, 73, 73);
+    border: none;
+    /* border: 1px solid rgb(77, 73, 73); */
     margin-bottom: 30px;
     border-radius: 10px;
     background: rgb(27, 26, 26);
@@ -58,5 +60,20 @@ h2 {
     border-radius: 50%;
     font-size: 25px;
     border: 5px solid #64f38c;
+    margin-bottom: 30px;
 }
+/* .download-div {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+} */
+/* .download-div .download {
+    background: #00c9FF;
+    color: #fff;
+    width: 60%;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid #64f38c;
+} */
 
